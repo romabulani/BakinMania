@@ -49,3 +49,13 @@
   border: none;
   color: var(--light-color);
 }
+
+@media only screen and (max-width: 640px) {
+  .results-container,
+  .result-container,
+  .result-label,
+  .question-header,
+  .question-number {
+    width: 100%;
+  }
+}
