@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakin Lane | Mania</title>
+    <link rel="stylesheet" href="https://muffinui.netlify.app/style.css" />
+    <link rel="stylesheet" href="home.css" />
+    <script
+      src="https://kit.fontawesome.com/c89017add5.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- added for favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
+    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="pagewrapper">
+      <!-- HEADER NAVIGATION -->
+      <nav class="nav-container">
+        <div class="brand">
+          <img src="/src/images/logo.webp" alt="muffin-logo" class="logo" />
+          <a href="#" class="brand-name">Bakin Mania</a>
+        </div>
+        <ul>
+          <li class="nav-icon">
+            <a href="#" rel="noreferrer" aria-label="search">
+              <i class="fa fa-solid fa-search fa-lg nav-icon"></i>
+            </a>
+          </li>
+          <li class="nav-icon">
+            <a
+              href="./src/components/authentication/login.html"
+              rel="noreferrer"
+              aria-label="account"
+            >
+              <i class="fas fa-trophy fa-lg nav-icon"></i>
+            </a>
+          </li>
+          <li class="nav-icon">
+            <a
+              href="./src/components/authentication/login.html"
+              rel="noreferrer"
+              aria-label="account"
+            >
+              <i class="fa fa-solid fa-user fa-lg nav-icon"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- MIDDLE SECTION STARTS-->
+
+      <!-- HERO SECTION -->
+      <div class="hero-container">
+        <div class="hero-content flex-column-center">
+          <h2 class="heading2 keyword">Bakin Mania</h2>
+          <h5 class="heading5">Are you bored?</h5>
+          <h5 class="heading5">We got you covered</h5>
+          <h5 class="heading5">
+            Do you know about cakes, desserts and baking?
+          </h5>
+          <div class="flex-row-center">
+            <button class="btn btn-primary" onclick="">EXPLORE</button>
+            <button class="btn btn-outline-primary" onclick="">
+              CREATE QUIZ
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARDS SECTION -->
+      <main class="container-main flex-column-center">
+        <h3 class="text-center heading3">Quiz Categories</h3>
+        <div class="cards flex-row-center">
+          <div
+            class="card card-default"
+            onclick="location.href = 'src/components/rules/rules.html'"
+          >
+            <div class="card-img-container">
+              <img src="/src/images/cakes.webp" class="card-img" alt="cakes" />
+            </div>
+            <div class="card-header">Cakes</div>
+            <div class="card-title">Bring on the cake!</div>
+            <div class="card-buttons">
+              <button
+                class="card-button btn btn-primary"
+                onclick="location.href = 'src/components/rules/rules.html'"
+              >
+                PLAY NOW
+              </button>
+              <i class="card-icon fa fa-share fa-lg"></i>
+            </div>
+          </div>
+
+          <div
+            class="card card-default"
+            onclick="location.href = 'src/components/rules/rules.html'"
+          >
+            <div class="card-img-container">
+              <img
+                src="/src/images/muffins.webp"
+                class="card-img"
+                alt="muffins"
+              />
+            </div>
+            <div class="card-header">Muffins</div>
+            <div class="card-title">Muffins are therapeutic.</div>
+            <div class="card-buttons">
+              <button
+                class="card-button btn btn-primary"
+                onclick="location.href = 'src/components/rules/rules.html'"
+              >
+                PLAY NOW
+              </button>
+              <i class="card-icon fa fa-share fa-lg"></i>
+            </div>
+          </div>
+
+          <div
+            class="card card-default"
+            onclick="location.href = 'src/components/rules/rules.html'"
+          >
+            <div class="card-img-container">
+              <img
+                src="/src/images/sweets.webp"
+                class="card-img"
+                alt="sweets"
+              />
+            </div>
+            <div class="card-header">Sweets</div>
+            <div class="card-title">Living the sweet life</div>
+            <div class="card-buttons">
+              <button
+                class="card-button btn btn-primary"
+                onclick="location.href = 'src/components/rules/rules.html'"
+              >
+                PLAY NOW
+              </button>
+              <i class="card-icon fa fa-share fa-lg"></i>
+            </div>
+          </div>
+
+          <div
+            class="card card-default"
+            onclick="location.href = 'src/components/rules/rules.html'"
+          >
+            <div class="card-img-container">
+              <img
+                src="/src/images/baking.webp"
+                class="card-img"
+                alt="baking"
+              />
+            </div>
+            <div class="card-header">Baking</div>
+            <div class="card-title">Baked just right!</div>
+            <div class="card-buttons">
+              <button
+                class="card-button btn btn-primary"
+                onclick="location.href = 'src/components/rules/rules.html'"
+              >
+                PLAY NOW
+              </button>
+              <i class="card-icon fa fa-share fa-lg"></i>
+            </div>
+          </div>
+
+          <div
+            class="card card-default"
+            onclick="location.href = 'src/components/rules/rules.html'"
+          >
+            <div class="card-img-container">
+              <img
+                src="/src/images/cakedecoration.webp"
+                class="card-img"
+                alt="cakedecoration"
+              />
+            </div>
+            <div class="card-header">Cake Decoration</div>
+            <div class="card-title">Fresh out of the oven.</div>
+            <div class="card-buttons">
+              <button
+                class="card-button btn btn-primary"
+                onclick="location.href = 'src/components/rules/rules.html'"
+              >
+                PLAY NOW
+              </button>
+              <i class="card-icon fa fa-share fa-lg"></i>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- MIDDLE SECTION ENDS-->
+
+      <!-- FOOTER -->
+      <footer class="footer-container flex-column-center">
+        <p class="footer-header">
+          Made with <span>&lt;/&gt;</span> by Roma Bulani
+        </p>
+        <ul>
+          <li class="footer-item">
+            <a
+              href="https://github.com/romabulani"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="github"
+            >
+              <i class="fa fa-github footer-icon fa-lg" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://twitter.com/romabulani"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="twitter"
+            >
+              <i class="fa fa-twitter footer-icon fa-lg" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="footer-item">
+            <a
+              href="https://www.linkedin.com/in/romabulani/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="linkedin"
+            >
+              <i
+                class="fa fa-linkedin footer-icon fa-lg"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </li>
+        </ul>
+        <p class="copywright">© 2022 | Bakin Mania</p>
+      </footer>
+    </div>
+  </body>
+</html>
