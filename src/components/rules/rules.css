@@ -4,7 +4,7 @@
 @import url(../../shared/reset.css);
 @import url(../../shared/global.css);
 
-.container-main {
+.main-container {
   flex-grow: 1;
   margin: 2rem;
 }
