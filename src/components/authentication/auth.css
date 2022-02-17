@@ -4,7 +4,8 @@
 @import url(../../shared/reset.css);
 @import url(../../shared/global.css);
 
-.auth-container {
+.auth-container,
+.signout-container {
   border-radius: 5px;
   box-shadow: var(--default-shadow);
   height: fit-content;
@@ -25,6 +26,11 @@
 
 .heading4 {
   padding-top: 1rem;
+}
+
+.signout-container {
+  box-shadow: unset;
+  align-items: flex-start;
 }
 
 .btn-primary,
