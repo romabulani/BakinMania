@@ -55,3 +55,11 @@
   background-color: var(--primary-color);
   color: var(--light-color);
 }
+
+@media only screen and (max-width: 640px) {
+  .container-question,
+  .question-and-options,
+  .option-label {
+    width: 100%;
+  }
+}
