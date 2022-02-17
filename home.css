@@ -25,7 +25,15 @@
 
 .card {
   cursor: pointer;
-  height: 17rem;
+  height: 19rem;
+}
+
+.card > .card-header {
+  padding-top: 1rem;
+}
+
+.card-title {
+  padding: 0.5rem;
 }
 
 .card-buttons {
