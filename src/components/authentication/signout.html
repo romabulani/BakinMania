@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bakin Mania | Login</title>
+    <title>Bakin Mania | Account</title>
     <link rel="stylesheet" href="https://muffinui.netlify.app/style.css" />
     <link rel="stylesheet" href="auth.css" />
     <script
@@ -71,35 +71,16 @@
       <!-- MAIN SECTION -->
       <main class="content-container">
         <div class="flex-row-center">
-          <div class="auth-container flex-column-center">
-            <h4 class="heading4">LOGIN</h4>
-            <form action="" class="form-auth">
-              <input
-                type="email"
-                placeholder="Enter email"
-                class="input-primary border-box"
-                required
-              />
-              <input
-                type="password"
-                placeholder="Enter password"
-                class="input-primary border-box"
-                required
-              />
-              <button type="submit" class="btn btn-primary">LOGIN</button>
-              <div>
-                <span>Don't have an account?</span>
-                <a href="signup.html" class="btn-link btn-link-primary"
-                  >Create One</a
-                >
-              </div>
-              <div>
-                <span>Forgot Password?</span>
-                <a href="passwordreset.html" class="btn-link btn-link-primary"
-                  >Reset here</a
-                >
-              </div>
-            </form>
+          <div class="signout-container flex-column-center">
+            <h4 class="heading4">ACCOUNT DETAILS</h4>
+            <div class="row-format">Name : John Doe</div>
+            <div class="row-format">Email : johndoe@gmail.com</div>
+            <button
+              class="btn btn-outline-default"
+              onclick="location.href = '../../../index.html'"
+            >
+              Sign Out
+            </button>
           </div>
         </div>
       </main>

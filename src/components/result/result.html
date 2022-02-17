@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bakin Mania | Login</title>
+    <title>Bakin Mania | Result</title>
     <link rel="stylesheet" href="https://muffinui.netlify.app/style.css" />
-    <link rel="stylesheet" href="auth.css" />
+    <link rel="stylesheet" href="result.css" />
     <script
       src="https://kit.fontawesome.com/c89017add5.js"
       crossorigin="anonymous"
@@ -60,8 +60,12 @@
             </a>
           </li>
           <li class="nav-icon">
-            <a href="#" rel="noreferrer" aria-label="account">
-              <i class="fa fa-solid fa-user fa-lg nav-icon nav-icon-active"></i>
+            <a
+              href="../authentication/signout.html"
+              rel="noreferrer"
+              aria-label="account"
+            >
+              <i class="fa fa-solid fa-user fa-lg nav-icon"></i>
             </a>
           </li>
         </ul>
@@ -69,38 +73,55 @@
 
       <!-- MIDDLE SECTION STARTS-->
       <!-- MAIN SECTION -->
-      <main class="content-container">
-        <div class="flex-row-center">
-          <div class="auth-container flex-column-center">
-            <h4 class="heading4">LOGIN</h4>
-            <form action="" class="form-auth">
-              <input
-                type="email"
-                placeholder="Enter email"
-                class="input-primary border-box"
-                required
-              />
-              <input
-                type="password"
-                placeholder="Enter password"
-                class="input-primary border-box"
-                required
-              />
-              <button type="submit" class="btn btn-primary">LOGIN</button>
-              <div>
-                <span>Don't have an account?</span>
-                <a href="signup.html" class="btn-link btn-link-primary"
-                  >Create One</a
-                >
-              </div>
-              <div>
-                <span>Forgot Password?</span>
-                <a href="passwordreset.html" class="btn-link btn-link-primary"
-                  >Reset here</a
-                >
-              </div>
-            </form>
+      <main class="main-container flex-row-center">
+        <div class="results-container flex-column-center">
+          <h3 class="heading3">🎉 Congratulations!! You passed the Level</h3>
+          <div class="result-container flex-column-center">
+            <div class="question-number">Question 1</div>
+            <div class="question-header">
+              Which common cake ingredient can be replaced with a mashed banana?
+            </div>
+            <div class="options-container flex-column-center">
+              <label class="result-label result-label-success">
+                <input type="radio" class="option" name="option" />Eggs
+              </label>
+              <label class="result-label">
+                <input type="radio" class="option" name="option" />Butter
+              </label>
+              <label class="result-label">
+                <input type="radio" class="option" name="option" />Milk
+              </label>
+              <label class="result-label">
+                <input type="radio" class="option" name="option" />Flour
+              </label>
+            </div>
           </div>
+          <div class="result-container flex-column-center">
+            <div class="question-number">Question 2</div>
+            <div class="question-header">
+              Which common cake ingredient can be replaced with a mashed banana?
+            </div>
+            <div class="options-container flex-column-center">
+              <label class="result-label result-label-success">
+                <input type="radio" class="option" name="option" />Eggs
+              </label>
+              <label class="result-label">
+                <input type="radio" class="option" name="option" />Butter
+              </label>
+              <label class="result-label result-label-failure">
+                <input type="radio" class="option" name="option" />Milk
+              </label>
+              <label class="result-label">
+                <input type="radio" class="option" name="option" />Flour
+              </label>
+            </div>
+          </div>
+          <button
+            class="btn btn-primary"
+            onclick="location.href = '../../../index.html'"
+          >
+            BACK TO HOME
+          </button>
         </div>
       </main>
       <!-- MIDDLE SECTION ENDS-->
