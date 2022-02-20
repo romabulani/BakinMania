@@ -8,6 +8,13 @@
   row-gap: 1rem;
 }
 
+.bold-text{
+  color: black;
+  display: block;
+  font-weight: 600;
+  padding: 6px;
+}
+
 .container-main > .heading3 {
   border-bottom: 2px solid var(--primary-color);
   margin: 2rem;
